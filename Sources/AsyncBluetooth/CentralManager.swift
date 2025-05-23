@@ -91,7 +91,4 @@ final public class CentralManager: NSObject, CBCentralManagerDelegate {
       disconnectStreamContinuation.yield(.success(peripheral))
     }
   }
-  
-    }
-  }
 }
